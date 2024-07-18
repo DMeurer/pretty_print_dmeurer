@@ -5,8 +5,9 @@
 ```Python
 import pretty_print_dmeurer as pp
 pp.color_demo()
+pp.text_demo()
 
-print(f"{pp.Colors.BG.aqua_bright}Hello World{pp.Colors.reset}")
+print(f"{pp.Colors.BG.aqua_bright}Hello World{pp.reset}")
 ```
 
 
